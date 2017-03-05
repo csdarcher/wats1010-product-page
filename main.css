@@ -1,8 +1,125 @@
+
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-    padding-top: 30px;
     padding-bottom: 20px;
-    color: green;
+    color: #002266;
+    font-size: 15px;
+}
+
+html {
+  font-family: Montserrat, serif;
+
+}
+
+#header {
+    height: 400px;
+    font-size: 30px;
+    background: #002266;
+    color: white;
+    padding-top: 50px;
+
+  }
+
+
+.btn {
+  color: #002266;
+  font-size: 1.2em;
+}
+
+.btn:hover {
+  background-color: #fdb913;
+  
+} 
+
+/*LINKS*/
+
+a {
+  color: #002266;
+}
+
+/*Nav Bar*/
+
+nav a: active {
+  color: #002266;
+}
+
+nav a:hover {
+  font-color: #fdb913;
+}
+
+nav {
+  font-size: large;
+  font-weight: bolder;
+}
+
+
+
+/*About*/
+
+#explainer-video {
+    padding-top: 85px;
+}
+
+#features {
+    height: 500px;
+    font-size: 30px;
+    
+}
+
+#testimonials {
+  height: 400px;
+  font-size: 30px;
+  margin: 10px;
+  background: #fdb913;
+  margin: 0;
+  padding-top: 90px;
+}
+
+
+blockquote {
+  background-color: #002266;
+  color: white;
+  font-size: 30px;
+}
+
+#mailing-list {
+  min-height: 500px;
+  font-size: 30px;
+  background: url('images/helloquencebw.jpg');
+  background-position: center center;
+  background-position: center;
+  background-repeat: no-repeat; 
+  padding-top: 75px;
+}
+
+#mailing-list h2 {
+  color: white;
+}
+
+#contact-us {
+    background: blue; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #fdb913, #002266); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #fdb913, #002266); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #fdb913, #002266); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #fdb913, #002266); /* Standard syntax (must be last) */
+    color: white;
+    float: relative;
+}
+
+#contact-us ul{
+    list-style-type: none;
+}
+
+.social-links li{
+  display: inline-block;
+}  
+
+.social-links {
+  float: right;
+}
+  
+#footer {
+  text-align: center;
 }

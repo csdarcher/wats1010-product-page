@@ -4,51 +4,161 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- TODO: Add proper head tag to provide a page description for search
-             engines. -->
-        <title>API Superstore</title>
-        <!-- Bootstrap CSS Framework -->
-        <!-- You can remove the ``link`` tags below if you don't want to use
-             Bootstrap with your site. If you choose to use Bootstrap, be sure
-             to reference the resources and the Bootstrap official
-             documentation: http://getbootstrap.com.
-
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
+				<title>API Superstore</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.min.css">
+				<link rel="stylesheet" href="main.css">
         <!-- End Bootstrap CSS Framework -->
 
         <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
              support bookmarking. -->
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="favicon" href="favicon.ico">
-
+			
     </head>
     <body>
-        <!-- Note: If you do not see a lamp icon in the heading below
-             when you view this file in a web browser, then there is an issue
-             with how Bootstrap is linked to this page. -->
-        <h1><span class="glyphicon glyphicon-lamp"></span> Hello World!</h1>
-        <!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
+				<div id="header">
+						<div class="container">
+								<div class="row">
+									<div class="col-md-6 col-sm-12">
+										<img src="assets/logos/api_superstore_sqlogo_by.png" width="300px" height="300px"> 
+									</div>	
+									<div class="col-md-6 col-sm-12">	
+										<p>The API Superstore has partnered with API providers across the Web to bring you easy access to the hottest third party services and features. Get started today!</p>
+									</div>
+										<button type="button" class="btn btn-default">Purchase</button>
+								</div>
+						</div>	
+				</div>
 
-        <!-- TODO: Create an area to put the explainer video. -->
+<!-- Nav Bar -->
+			
+			<div class="container-fluid">
+					<nav class="navbar navbar-default">
+						<div>
+							<ul class="nav nav-pills">
+								<li role="presentation"><a href="#home" alt="Home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+								</li>
+								<li role="presentation"><a href="#about">About</a>
+								</li>
+								<li role="presentation"><a href="#testimonials">Testimonials</a>
+								</li>
+								<li role="presentation"><a href="#join">Join</a>
+								</li>
+							</ul>
+					</nav>
+			</div>
 
-        <!-- TODO: Create an area to put the long product description. -->
 
-        <!-- TODO: Create an area to put customer testimonials. -->
 
-        <!-- TODO: Create an area to show features. -->
+<!-- Features -->
+					<div id="home">
+						<div class="container-fluid">
+									<div id="explainer-video" class="row">
+											<div class="col-md-6">
+														<iframe width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo?controls=0" frameborder="0" allowfullscreen></iframe>
+											</div>		
+											<div class="col-md-6">
+												 <div id="features">
+														<h2>Features</h2>
+															<ul>
+																<li>Links to the best API's from all over the web</li>
+																<li>Pay with credit, check, IOU, wire transfer, paypal, venmo, or livestock trade!</li>
+																<li>Convenient catalog</li>
+																<li>Elegant shopping experience</li>
+															</ul>
+													</div>
+											</div>
+									</div>	
+							</div>	
+					</div>
+	
+<!-- Testimonials -->
+					<div id="testimonials">
+							<div class="container-fluid">
+							 	<div class="row">
+										<div class="col-lg-4 col-sm-12">	
+											<blockquote class="blockquote">
+													This is the best website ever! 
+													<footer class="blockquote-footer">C.P. Yu AmazingSite.com</footer>
+												</blockquote>
+												</div>
+											<div class="col-lg-4 col-sm-12">
+												<blockquote class="blockquote">
+													Once again, I'm blown away by the amazing offerings of the API Superstore. You really are SUPER! 
+													<footer class="blockquote-footer">Clara Cache</footer> 
+												</blockquote>	
+													
+										 </div>	
+										 <div class="col-lg-4 col-sm-12">
+											 	<blockquote class="blockquote">
+													Couldn't have asked for a better customer service experience. Plus the website is great! 
+													<footer class="blockquote-footer">Betty White</footer>  
+													</p>
+												</blockquote>	
+									</div>
+								</div>
+							</div>
+					</div>	
 
-        <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
+<!-- Mailing List -->					
+				<div id="mailing-list">
+					<div class="container">
+							 <div class="row">
+								<h2>
+									Join our mailing list!
+								</h2> 
+								  <form>
+											<div class="form-group">
+												<label for="name">Name:</label>
+												<input type="name" class="form-control" id="email">
+											</div>
+											<div class="form-group">
+												<label for="email">Email address:</label>
+												<input type="email" class="form-control" id="pwd">
+											</div>
+											<div class="checkbox">
+												<label><input type="checkbox"> Remember me</label>
+											</div>
+											<button type="submit" class="btn btn-default">Submit</button>
+									</form>
+							</div>
+					</div>
+				</div>
 
-        <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
+<!-- Contact -->							
+			<div id="contact-us">
+					<div class="container-fluid">
+							<div class ="row">
+									<div class="col-sm-4">
+											<ul class="contact_information">
+													<h2>Contact information</h2>
+													<li>Phone: 206-555-1234 </li>
+													<li>Email: info@apisuperstore.com </li>
+													<li>Location: Seattle, Washington, USA </li>
+											</ul> 
+									</div>
+										<div class="col-sm-4">
+												<ul class="social-links">
+														<h2>Be sure to follow us!</h2>  
+														<li class="facebook"><a href="http://facebook.com"><img src="social/glyphicons-social-31-facebook.png" alt="Facebook Icon"/></a></li>
+														<li class="twitter"><a href="http://twitter.com"><img src="social/glyphicons-social-32-twitter.png" alt="Twitter Icon"/></a></li>
+														<li class="google-plus"><a href="http://plus.google.com"><img src="social/glyphicons-social-3-google-plus.png" alt="Google Plus Icon"/></a></li>
+												</ul>
+										</div>
+							</div>
+						</div>
+				</div>	
 
-        <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
-    </body>
+<!-- Footer -->
+				<div id="footer">
+					<div class="container-fluid">
+							<div class="row">
+								<p>
+									Website created by Carly Darcher &copy; 2017
+								</p>
+						</div>
+					</div>
+				</div>
+			</body>
 </html>
