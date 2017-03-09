@@ -3,18 +3,17 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-    padding-bottom: 20px;
     color: #002266;
     font-size: 15px;
 }
 
 html {
   font-family: Montserrat, serif;
-
+ 
 }
+ 
 
 #header {
-    height: 400px;
     font-size: 30px;
     background: #002266;
     color: white;
@@ -28,7 +27,7 @@ html {
   font-size: 1.2em;
 }
 
-.btn:hover {
+.btn:hover:focus {
   background-color: #fdb913;
   
 } 
@@ -52,6 +51,7 @@ nav a:hover {
 nav {
   font-size: large;
   font-weight: bolder;
+  margin: 0;
 }
 
 
@@ -65,33 +65,34 @@ nav {
 #features {
     height: 500px;
     font-size: 30px;
+    padding-top: 60px;
     
 }
 
 #testimonials {
-  height: 400px;
   font-size: 30px;
   margin: 10px;
   background: #fdb913;
   margin: 0;
-  padding-top: 90px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 
 blockquote {
   background-color: #002266;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 #mailing-list {
-  min-height: 500px;
+  height: 500px;
   font-size: 30px;
   background: url('images/helloquencebw.jpg');
   background-position: center center;
   background-position: center;
   background-repeat: no-repeat; 
-  padding-top: 75px;
+  padding-top: 65px;
 }
 
 #mailing-list h2 {
@@ -105,7 +106,6 @@ blockquote {
     background: -moz-linear-gradient(right, #fdb913, #002266); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, #fdb913, #002266); /* Standard syntax (must be last) */
     color: white;
-    float: relative;
 }
 
 #contact-us ul{
@@ -117,9 +117,12 @@ blockquote {
 }  
 
 .social-links {
-  float: right;
 }
   
 #footer {
   text-align: center;
+  background: #002266;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
