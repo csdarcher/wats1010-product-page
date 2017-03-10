@@ -4,27 +4,21 @@
 
 body {
     color: #002266;
-    font-size: 15px;
 }
 
-html {
-  font-family: Montserrat, serif;
- 
-}
- 
 
 #header {
     font-size: 30px;
     background: #002266;
     color: white;
-    padding-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 
   }
 
 
 .btn {
   color: #002266;
-  font-size: 1.2em;
 }
 
 .btn:hover:focus {
@@ -32,40 +26,34 @@ html {
   
 } 
 
-/*LINKS*/
 
-a {
-  color: #002266;
-}
 
 /*Nav Bar*/
+  .affix {
+      top: 0;
+      width: 100%;
+  }
 
-nav a: active {
-  color: #002266;
-}
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
 
-nav a:hover {
-  font-color: #fdb913;
-}
-
-nav {
-  font-size: large;
-  font-weight: bolder;
-  margin: 0;
-}
 
 
 
 /*About*/
 
-#explainer-video {
-    padding-top: 85px;
-}
 
+.explainer-video {
+    padding-top: 15px;
+    width: 60%;
+    height: 60%;
+}
+    
 #features {
-    height: 500px;
-    font-size: 30px;
-    padding-top: 60px;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 20px;
     
 }
 
@@ -87,12 +75,13 @@ blockquote {
 
 #mailing-list {
   height: 500px;
-  font-size: 30px;
+  font-size: 25px;
   background: url('images/helloquencebw.jpg');
   background-position: center center;
   background-position: center;
   background-repeat: no-repeat; 
   padding-top: 65px;
+  padding-left: 5px;
 }
 
 #mailing-list h2 {
@@ -121,7 +110,7 @@ blockquote {
   
 #footer {
   text-align: center;
-  background: #002266;
+  background: #2D2D2D;
   color: white;
   margin: 0;
   padding: 0;

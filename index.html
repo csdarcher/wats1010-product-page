@@ -7,6 +7,8 @@
 				<title>API Superstore</title>
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.min.css">
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>																					 
 				<link rel="stylesheet" href="main.css">
         <!-- End Bootstrap CSS Framework -->
 
@@ -30,30 +32,49 @@
 
 <!-- Nav Bar -->
 			
-			<div class="container-fluid">
-					<nav class="navbar navbar-default">
-							<ul class="nav nav-pills">
-								<li role="presentation"><a href="#home" alt="Home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
-								<li role="presentation"><a href="#about">About</a></li>
-								<li role="presentation"><a href="#testimonials">Testimonials</a></li>
-								<li role="presentation"><a href="#mailing">Mailing List</a></li>
-								<li role="presentation"><a href="#contact">Contact Us</a></li>
-							</ul>
-					</nav>
-			</div>
+		<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>                        
+							</button>
+							<a class="navbar-brand" href="#index.html">API Superstore</a>
+						</div>
+						<div class="collapse navbar-collapse" id="myNavbar">
+							<ul class="nav navbar-nav">
+								<li><a href="#home">Features</a></li>
+									<li><a href="#testimonials">Testimonials</a></li>
+									<li><a href="#mailing-list">Mailing List</a></li>
+									<li><a href="#contact-us">Contact Us</a></li>
+								</ul>
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Purchase</a></li>
+								</ul>
+					</div>
+  			</div>
+</nav>
 
 
 
-<!-- Features -->
+<!-- Video -->
 					<div id="home">
 						<div class="container">
 									<div class="row">
-										<div class="col-lg-6 col-sm-12">
-												<div id="explainer-video"> 
-															<iframe width="450" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo?controls=0" frameborder="0" allowfullscreen></iframe>
+												<div class="embed-responsive embed-responsive-16by9"> 
+															<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/L48g1ZWLMdo?controls=0" frameborder="0" allowfullscreen></iframe>
 												</div>
-										</div>
-											<div class="col-lg-6 col-sm-12">
+									</div>
+							</div>	
+					</div>	
+
+			
+<!-- Features -->
+						<div class="container">
+									<div class="row">
+										<div class="col-lg-12 col-sm-12">
 														<div id="features"> 
 														<h2>Features</h2>
 															<ul>
@@ -66,7 +87,7 @@
 											</div>
 									</div>	
 							</div>	
-					</div>
+
 	
 <!-- Testimonials -->
 					<div id="testimonials">
