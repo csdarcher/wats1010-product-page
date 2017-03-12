@@ -7,6 +7,8 @@ body {
 }
 
 
+
+
 #header {
     font-size: 30px;
     background: #002266;
@@ -28,21 +30,7 @@ body {
 
 
 
-/*Nav Bar*/
-  .affix {
-      top: 0;
-      width: 100%;
-  }
-
-  .affix + .container-fluid {
-      padding-top: 70px;
-  }
-
-
-
-
 /*About*/
-
 
 .explainer-video {
     padding-top: 15px;
