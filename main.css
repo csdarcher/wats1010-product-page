@@ -7,8 +7,6 @@ body {
 }
 
 
-
-
 #header {
     background: #002266;
     color: white;
@@ -18,19 +16,12 @@ body {
   }
 
 
+/*About*/
+
 .about {
   padding-top: 55px;
   font-size: 30px;
 }
-
-
-.btn-info {
-  background: #002266;
-  color: white;
-  border-color: #002266;
-}
-
-/*About*/
 
 .explainer-video {
     padding-top: 15px;
@@ -44,6 +35,9 @@ body {
     padding-bottom: 20px;
     
 }
+
+
+/*Testimonials*/
 
 #testimonials {
   font-size: 30px;
@@ -61,6 +55,8 @@ blockquote {
   font-size: 25px;
 }
 
+/*Mailing List Section*/
+
 #mailing-list {
   height: 500px;
   font-size: 25px;
@@ -75,6 +71,21 @@ blockquote {
 #mailing-list h2 {
   color: white;
 }
+
+
+.btn-info {
+  background: #002266;
+  color: white;
+  border-color: #002266;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info.focus, .btn-info:active, .btn-info.active, .open>.dropdown-toggle.btn-info {
+  background-color: #fdb913;
+  border-color: #fdb913;
+  color: #002266;
+} 
+
+/*Contact Info*/
 
 #contact-us {
     background: blue; /* For browsers that do not support gradients */    
@@ -96,6 +107,8 @@ blockquote {
 .social-links {
 }
   
+/*Footer*/
+
 #footer {
   text-align: center;
   background: #2D2D2D;
